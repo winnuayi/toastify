@@ -1,0 +1,131 @@
+html, body {
+  font-family: 'Rubik', sans-serif;
+  color: rgba(0, 0, 0, 0.55);
+}
+
+/*****************
+ * NAVBAR
+ *****************/
+
+nav {
+  background-color: white;
+  border-bottom: 1px solid #f9f9f9;
+}
+
+#logo {
+  width: 48px;
+  margin-left: 10px;
+  margin-right: 50px;
+}
+
+.n-link {
+  text-decoration: none;
+  margin-right: 10px;
+  color: rgba(0, 0, 0, 0.55);
+}
+
+.n-link:hover {
+  color: orange;
+}
+
+.n-active {
+  color: orange;
+}
+
+/*****************
+ * CONTENT
+ *****************/
+
+.tagline {
+  color: orange;
+  font-size: 50px;
+  line-height: 60px;
+}
+
+.order-btn {
+  background-color: orange;
+  color: white;
+}
+
+#testimoni {
+  padding-top: 40px;
+  padding-bottom: 20px;
+  background-color: orange;
+  color: white;
+}
+
+.t-item {
+  padding-top: 25px;
+  padding-bottom: 20px;
+  background-color: orange;
+  color: white;
+}
+
+#map {
+  height: 400px;
+}
+
+#follow-ig {
+  background-color: #333333;
+  color: white;
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+/*****************
+ * MENU
+ */
+
+#menu {
+  background-color: #f9f9f9; 
+}
+
+.columns-3 {
+  width: 100%;
+  display:flex;
+}
+
+.menu-image {
+  width: calc(100% / 3);
+}
+
+.menu-btn-flex {
+  display: flex;
+  justify-content: center;
+}
+
+/* .menu-btn {
+  text-align: center;
+} */
+
+/*****************
+ * ABOUT US
+ */
+
+.tr-timeline {
+  color: rgba(0, 0, 0, 0.55);
+}
+
+
+/*****************
+ * FOOTER
+ */
+
+footer {
+  background-color: #FFD737;
+}
+
+#f-content {
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+.f-title {
+  margin-top: 30px;
+}
+
+#f-copyright {
+  border-top: 1px solid #f9f9f9;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
